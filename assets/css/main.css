@@ -1,49 +1,11 @@
 
-/*-----------------
-* [Master Stylesheet]
-*
-* Theme    : Justin
-* Version  : 1.0
-* Author   : beingeorge
-* Support  : hello@beingeorge.com
-* 
-------------------*/
-
-
-/*-----------------
-  [ALL CONTENTS]
-
-1. Reset.css
-2. General 
-3. Helper Classes 
-4. Preloader
-5. Header
-6. About
-7. Portfolio
-8. Services
-9. Freelance
-10. Resume
-11. Testimony
-12. Blog
-13. Contact
-14. Footer 
-15. All Media Queries
-
-------------------*/
 
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap');
 
 
-/* ---------------------------------------------- /*
-* 1. Reset.css
-/* ---------------------------------------------- /*
 
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -89,11 +51,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-
-/* ---------------------------------------------- /*
-* 2. General
-/* ---------------------------------------------- */
 
 
 ::selection {
@@ -191,9 +148,7 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* ---------------------------------------------- 
-* 3. Helper Classes 
-/* ---------------------------------------------- */
+
 
 .section {
     padding: 100px 0;
@@ -333,11 +288,6 @@ a {
     background: rgba(89, 62, 255, 1) !important;
 }
 
-
-/* ---------------------------------------------- 
-* 4. Preloader
-/* ---------------------------------------------- */
-
 .preloader {
     position: fixed;
     left: 0;
@@ -363,9 +313,7 @@ a {
     visibility: hidden;
 }
 
-/* ---------------------------------------------- 
-* 5. Header
-/* ---------------------------------------------- */
+
 
 .ham {
     cursor: pointer;
@@ -502,9 +450,7 @@ a {
     height: 100%;
 }
 
-/* ---------------------------------------------- 
-* 6. Home
-/* ---------------------------------------------- */
+
 
 .section-home {
     height: 100vh;
@@ -615,13 +561,13 @@ a {
     bottom: 0;
 }
 
-/* Creative 1 */
+
 
 .creative-1 {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
 
-/* Creative 2 */
+
 
 .banner-clip-2-svg, .banner-clip-4-wave {
     position: absolute;
@@ -635,13 +581,13 @@ a {
     fill: #fff;
 }
 
-/* Creative 3 */
+
 
 .creative-3 {
     clip-path: polygon(0 0, 100% 0, 100% 80%, 20% 100%, 0 80%);
 }
 
-/* Creative 4 */
+
 
 .banner-clip-4-wave img {
     position: relative !important;
@@ -651,9 +597,6 @@ a {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
 
-/* ---------------------------------------------- 
-* 6. About
-/* ---------------------------------------------- */
 
 
 .about-avatar img {
@@ -797,9 +740,6 @@ a {
     color: #593eff;
 }
 
-/* ---------------------------------------------- 
-* 7. Portfolio
-/* ---------------------------------------------- */
 
 .filter {
     border-bottom: 1px solid #eee; 
@@ -897,9 +837,7 @@ a {
     background-color: #593eff;
 }
 
-/* ---------------------------------------------- 
-* 8. Services
-/* ---------------------------------------------- */
+
 
 
 .section-services {
@@ -1089,10 +1027,6 @@ a {
 }
 
 
-/* ---------------------------------------------- 
-* 9. Freelance
-/* ---------------------------------------------- */
-
 
 .section-freelance {
     background: url(../images/freelance.jpg);
@@ -1119,9 +1053,7 @@ a {
     color: #fff;
 }
 
-/* ---------------------------------------------- 
-* 10. Resume
-/* ---------------------------------------------- */
+
 
 .resume-list h5 {
     font-size: 18px;
@@ -1133,9 +1065,7 @@ a {
     opacity: 0.8;
 }
 
-/* ---------------------------------------------- 
-* 11. Testimony
-/* ---------------------------------------------- */
+
 
 .section-testimony {
     padding-bottom: 80px
@@ -1170,9 +1100,7 @@ a {
     padding-top: 20px;
 }
 
-/* ---------------------------------------------- 
-* 12. Blog
-/* ---------------------------------------------- */
+
 
 .blog-list {
     max-width: 350px;
@@ -1245,9 +1173,7 @@ a {
     background: #e9ecef;
 }
 
-/* ---------------------------------------------- 
-* 13. Contact
-/* ---------------------------------------------- */
+
 
 .section-contact {
     padding-bottom: 30px !important;
@@ -1290,18 +1216,12 @@ a {
     margin: 0;
 }
 
-/* ---------------------------------------------- 
-* 14. Footer
-/* ---------------------------------------------- */
 
 .footer {
     margin-top: 0;
     padding: 50px;
 }
 
-/* ---------------------------------------------- 
-* 15. All Media Queries
-/* ---------------------------------------------- */
 
 
 @media (max-width: 991px) {

@@ -1,26 +1,14 @@
-/*-----------------------------------------------------------
-* Template Name    : Justin - Personal Portfolio
-* Author           : beingeorge
-* Version          : 1.0
-* Created          : Oct 2019
-* File Description : Main Js file of the template
-*------------------------------------------------------------
-*/
+
 
 ! function($) {
     "use strict";
 
-    /* ---------------------------------------------- /*
-    * Preloader
-    /* ---------------------------------------------- */
+
 
     $(window).on('load', function() {
         $('#preloader').addClass("loaded");
     });
 
-    /* ---------------------------------------------- /*
-    * Section Scroll - Navbar
-    /* ---------------------------------------------- */
     
     $('.navbar-nav a').on('click', function(event) {
         var $anchor = $(this);
@@ -60,17 +48,12 @@
 
     });
 
-    /* ---------------------------------------------- /*
-    * Scroll Spy - init
-    /* ---------------------------------------------- */
+
 
     $("#navbarCollapse").scrollspy({
         offset:20
     });
 
-    /* ---------------------------------------------- /*
-    * Magnific Popup - Init
-    /* ---------------------------------------------- */
 
     $('.simple-ajax-popup').magnificPopup({
         type: 'image',
@@ -93,9 +76,7 @@
         }
     });
 
-    /* ---------------------------------------------- /*
-    * Swipper - Init
-    /* ---------------------------------------------- */
+
 
     // Portolio init
 
@@ -155,9 +136,7 @@
         }
     });
 
-    /* ---------------------------------------------- /*
-    * Parallax - Init
-    /* ---------------------------------------------- */
+
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
         $('#home').css({'background-attachment': 'scroll'});
@@ -173,30 +152,25 @@
         }        
     }
 
-    /* ---------------------------------------------- /*
-    * AnimateOnScroll - Init
-    /* ---------------------------------------------- */
+
 
     var wow = new WOW(
       {
-        boxClass:     'wow',      // animated element css class (default is wow)
-        animateClass: 'animated', // animation css class (default is animated)
-        offset:       0,          // distance to the element when triggering the animation (default is 0)
-        mobile:       true,       // trigger animations on mobile devices (default is true)
-        live:         true,       // act on asynchronously loaded content (default is true)
+        boxClass:     'wow',     
+        animateClass: 'animated', 
+        offset:       0,          
+        mobile:       true,      
+        live:         true,      
         callback:     function(box) {
-          // the callback is fired every time an animation is started
-          // the argument that is passed in is the DOM node being animated
+      
         },
-        scrollContainer: null,    // optional scroll container selector, otherwise use window,
-        resetAnimation: true,     // reset animation on end (default is true)
+        scrollContainer: null,    
+        resetAnimation: true,    
       }
     );
     wow.init();
 
-    /* ---------------------------------------------- /*
-    * Youtub Player
-    /* ---------------------------------------------- */
+ 
 
 
     if($('.youtube-bg').length) {
