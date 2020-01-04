@@ -1350,4 +1350,10 @@ a {
     .section-resume .section-head {
         margin-bottom: 30px
     }
+
+    .project_list_area ul li{
+        display:block;
+        text-align:left;
+        color:white;
+    }
 }
