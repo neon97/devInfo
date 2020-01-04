@@ -1222,6 +1222,18 @@ a {
     padding: 50px;
 }
 
+.project_list_area h3 {
+    font-size: 24px;
+}
+.project_list_area ul {
+    padding-top: 10px;
+}
+
+.project_list_area ul li{
+    display:block;
+    text-align:left;
+    color:white;
+}
 
 
 @media (max-width: 991px) {
@@ -1351,9 +1363,4 @@ a {
         margin-bottom: 30px
     }
 
-    .project_list_area ul li{
-        display:block;
-        text-align:left;
-        color:white;
-    }
 }
